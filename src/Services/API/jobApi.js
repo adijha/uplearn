@@ -1,5 +1,4 @@
 import { request, gql } from "graphql-request";
-
 export const fetchJobsApi = async () => {
 	const query = gql`
 		{
