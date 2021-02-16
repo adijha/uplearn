@@ -1,0 +1,22 @@
+.job-page {
+	padding: 1rem;
+	max-width: 730px;
+	h1 {
+		text-align: center;
+		margin: 2rem 0;
+		color: #0468bf;
+	}
+	margin: auto;
+	.job-page-loading {
+		text-align: center;
+		margin-top: 4rem;
+		.job-page-spinner {
+			color: #0468bf;
+		}
+	}
+	.job-fetch-error {
+		color: red;
+		text-align: center;
+		margin-top: 4rem;
+	}
+}

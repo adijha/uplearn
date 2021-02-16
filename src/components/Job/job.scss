@@ -1,0 +1,25 @@
+
+.job-card {
+	background: #fff;
+	padding: 1rem;
+	margin-bottom: 1.2rem;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: #ededed;
+	&:hover {
+		border: #ededed solid 1px;
+		transform: scale(1.005);
+	}
+	.job-title {
+		font-size: 1.2rem;
+		/* color: #3b592d; */
+		.job-company {
+			color: #0468bf;
+		}
+	}
+	.job-location {
+		color: gray;
+		margin: 7px 0;
+	}
+
+}
